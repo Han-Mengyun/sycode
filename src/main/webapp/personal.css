@@ -1,0 +1,203 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 个人中心界面盒子 */
+.personal-box {
+    background-color: black;
+    width: 850px;
+}
+
+.Personal-top {
+    height: 150px;
+    width: 850px;
+}
+
+/* 个人头像界面 */
+.Personal-avatar {
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-image: url(images/logo.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.Personal-avatar img {
+    width: 100%;
+    /* 图片宽度填满容器 */
+    height: 100%;
+    /* 图片高度填满容器 */
+    object-fit: contain;
+    /* 保持图片比例不变，完全显示图片 */
+}
+
+/* 背景图片 */
+.Personal-backgroundpicture {
+    float: right;
+    width: 700px;
+    height: 150px;
+    background-color: black;
+    background-size: 700px 150px;
+}
+
+/* 个人中心主界面 */
+.Personal-main {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+/* 个人中心界面索引栏 */
+.aside {
+    height: 500px;
+    width: 150px;
+    background-image: url(images/35.jpg);
+    background-size: 100%;
+    overflow: hidden;
+    float: left;
+    border: solid white 1px;
+}
+
+.aside img {
+    width: 100%;
+    /* 图片宽度填满容器 */
+    height: 100%;
+    /* 图片高度填满容器 */
+    object-fit: contain;
+    /* 保持图片比例不变，完全显示图片 */
+}
+
+/* 小的索引框 */
+.item {
+    width: 80%;
+    height: 10%;
+    background-color: #FFCCCC;
+    /*   border: solid black 1px; */
+    margin-top: 13%;
+    text-align: center;
+    /* 字体居中 */
+    line-height: 50px;
+    /* 按钮的盒子设为相对位置，以便按钮进行定位 */
+    position: relative;
+}
+
+button {
+    /* 按钮的位置为绝对位置 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: transparent;
+    border-color: white;
+
+    font-size: 17px;
+    /* 接触到按钮变为小手 */
+    cursor: pointer;
+
+}
+
+/* 信息界面 */
+.content {
+    width: 696px;
+    height: 500px;
+    /* background-color: #FF6666; */
+    background-image: url(images/36.jpg);
+    border: solid white 1px;
+    float: left;
+}
+
+.neirong {
+    height: 400px;
+    width: 500px;
+    float: right;
+}
+
+.content1 {
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.content2 {
+    background-color: white;
+    height: 80%;
+    width: 90%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.content3 {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    color:white;
+}
+
+.content4 {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.content5 {
+    background-color: blueviolet;
+    height: 80%;
+    width: 80%;
+    float: right;
+    margin-right: 5%;
+}
+
+.content6 {
+    background-color: coral;
+    height: 500px;
+    width: 90%;
+    float: right;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cm {
+    line-height: 30px;
+    /* border: solid 2px black; */
+    width: 100%;
+    height: 60px;
+}
+
+.modify-box {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+el-button {
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-color: white;
+    border-style: outset;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
